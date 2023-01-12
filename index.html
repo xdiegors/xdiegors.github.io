@@ -12,8 +12,9 @@
 <body>
     <div class="sm:grid grid-cols-3">
         <div
-            class="col-span-1 bg-gradient-to-r from-blue-800 to-blue-700 flex flex-col items-center justify-evenly text-white sm:max-h-screen sm:sticky sm:top-0 sm:left-0">
-            <img src="assets/img/diego.jpg" alt="" class="bg-slate-500 rounded-full shadow-md" width="150" height="150">
+            class="col-span-1 bg-gradient-to-r from-blue-800 to-blue-700 flex flex-col items-center justify-evenly text-white h-screen sm:sticky sm:top-0 sm:left-0">
+            <a href="#"><img src="assets/img/diego.jpg" alt="" class="rounded-full shadow-md shadow-black border-4"
+                    width="200" height="200"></a>
             <div class="flex flex-col items-center">
                 <h1 class="text-3xl font-bold">Diego Ribeiro</h1>
                 <p>Desenvolvedor de Software</p>
@@ -43,14 +44,12 @@
                                     d="M10.5 3.798v5.02a3 3 0 01-.879 2.121l-2.377 2.377a9.845 9.845 0 015.091 1.013 8.315 8.315 0 005.713.636l.285-.071-3.954-3.955a3 3 0 01-.879-2.121v-5.02a23.614 23.614 0 00-3 0zm4.5.138a.75.75 0 00.093-1.495A24.837 24.837 0 0012 2.25a25.048 25.048 0 00-3.093.191A.75.75 0 009 3.936v4.882a1.5 1.5 0 01-.44 1.06l-6.293 6.294c-1.62 1.621-.903 4.475 1.471 4.88 2.686.46 5.447.698 8.262.698 2.816 0 5.576-.239 8.262-.697 2.373-.406 3.092-3.26 1.47-4.881L15.44 9.879A1.5 1.5 0 0115 8.818V3.936z"
                                     clip-rule="evenodd" />
                             </svg>
-
                             <span class="ml-2">Projetos</span></a></li>
                     <li><a href="" class="flex"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
                                 fill="currentColor" class="w-6 h-6">
                                 <path
                                     d="M4.5 4.5a3 3 0 00-3 3v9a3 3 0 003 3h8.25a3 3 0 003-3v-9a3 3 0 00-3-3H4.5zM19.94 18.75l-2.69-2.69V7.94l2.69-2.69c.944-.945 2.56-.276 2.56 1.06v11.38c0 1.336-1.616 2.005-2.56 1.06z" />
                             </svg>
-
                             <span class="ml-2">YouTube</span></a></li>
                     <li><a href="" class="flex"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
                                 fill="currentColor" class="w-6 h-6">
@@ -58,7 +57,6 @@
                                     d="M4.5 3.75a3 3 0 00-3 3v10.5a3 3 0 003 3h15a3 3 0 003-3V6.75a3 3 0 00-3-3h-15zm4.125 3a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5zm-3.873 8.703a4.126 4.126 0 017.746 0 .75.75 0 01-.351.92 7.47 7.47 0 01-3.522.877 7.47 7.47 0 01-3.522-.877.75.75 0 01-.351-.92zM15 8.25a.75.75 0 000 1.5h3.75a.75.75 0 000-1.5H15zM14.25 12a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H15a.75.75 0 01-.75-.75zm.75 2.25a.75.75 0 000 1.5h3.75a.75.75 0 000-1.5H15z"
                                     clip-rule="evenodd" />
                             </svg>
-
                             <span class="ml-2">Linkedin</span></a></li>
                     <li><a href="" class="flex"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
                                 fill="currentColor" class="w-6 h-6">
@@ -73,7 +71,6 @@
                                     d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z"
                                     clip-rule="evenodd" />
                             </svg>
-
                             <span class="ml-2">Sobre</span></a></li>
                     <li><a href="" class="flex"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
                                 fill="currentColor" class="w-6 h-6">
@@ -82,15 +79,17 @@
                                 <path
                                     d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
                             </svg>
-
                             <span class="ml-2">Contato</span></a></li>
                 </ul>
             </nav>
         </div>
-        <div class="flex flex-col col-span-2 bg-slate-100 p-10 items-center">
-            <div class="mb-6 border-b pb-6 max-w-3xl">
-                <h2 class="text-3xl font-bold">Título do Post</h2>
-                <span class="mb-6 block">January 11, 2023 in blog</span>
+        <main class="flex flex-col col-span-2 bg-slate-100 p-10 items-center">
+            <article class="mb-6 border-b pb-6 max-w-3xl">
+                <a href="#">
+                    <h2 class="text-3xl font-bold mb-2">Título do artigo</h2>
+                </a>
+                <span class="mb-6 block text-slate-500">January 11, 2023 in <a href="#"
+                        class="text-blue-700 hover:underline">blog</a></span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto temporibus, nulla vero facilis vitae
                     deserunt
                     dolorem impedit placeat autem, laborum, similique error sapiente cumque non eligendi sequi enim?
@@ -107,10 +106,13 @@
                     Ipsam,
                     suscipit?</p>
                 <p class="mt-6"><a href="#" class="text-blue-700 hover:underline">Continuar leitura</a></p>
-            </div>
-            <div class="mb-6 border-b pb-6 max-w-3xl">
-                <h2 class="text-3xl font-bold">Título do Post</h2>
-                <span class="mb-6 block">January 11, 2023 in blog</span>
+            </article>
+            <article class="mb-6 border-b pb-6 max-w-3xl">
+                <a href="#">
+                    <h2 class="text-3xl font-bold mb-2">Título do artigo</h2>
+                </a>
+                <span class="mb-6 block text-slate-500">January 11, 2023 in <a href="#"
+                        class="text-blue-700 hover:underline">blog</a></span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto temporibus, nulla vero facilis vitae
                     deserunt
                     dolorem impedit placeat autem, laborum, similique error sapiente cumque non eligendi sequi enim?
@@ -127,10 +129,13 @@
                     Ipsam,
                     suscipit?</p>
                 <p class="mt-6"><a href="#" class="text-blue-700 hover:underline">Continuar leitura</a></p>
-            </div>
-            <div class="mb-6 border-b pb-6 max-w-3xl">
-                <h2 class="text-3xl font-bold">Título do Post</h2>
-                <span class="mb-6 block">January 11, 2023 in blog</span>
+            </article>
+            <article class="mb-6 border-b pb-6 max-w-3xl">
+                <a href="#">
+                    <h2 class="text-3xl font-bold mb-2">Título do artigo</h2>
+                </a>
+                <span class="mb-6 block text-slate-500">January 11, 2023 in <a href="#"
+                        class="text-blue-700 hover:underline">blog</a></span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto temporibus, nulla vero facilis vitae
                     deserunt
                     dolorem impedit placeat autem, laborum, similique error sapiente cumque non eligendi sequi enim?
@@ -147,68 +152,8 @@
                     Ipsam,
                     suscipit?</p>
                 <p class="mt-6"><a href="#" class="text-blue-700 hover:underline">Continuar leitura</a></p>
-            </div>
-            <div class="mb-6 border-b pb-6 max-w-3xl">
-                <h2 class="text-3xl font-bold">Título do Post</h2>
-                <span class="mb-6 block">January 11, 2023 in blog</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto temporibus, nulla vero facilis vitae
-                    deserunt
-                    dolorem impedit placeat autem, laborum, similique error sapiente cumque non eligendi sequi enim?
-                    Ipsam,
-                    suscipit?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto temporibus, nulla vero facilis vitae
-                    deserunt
-                    dolorem impedit placeat autem, laborum, similique error sapiente cumque non eligendi sequi enim?
-                    Ipsam,
-                    suscipit?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto temporibus, nulla vero facilis vitae
-                    deserunt
-                    dolorem impedit placeat autem, laborum, similique error sapiente cumque non eligendi sequi enim?
-                    Ipsam,
-                    suscipit?</p>
-                <p class="mt-6"><a href="#" class="text-blue-700 hover:underline">Continuar leitura</a></p>
-            </div>
-            <div class="mb-6 border-b pb-6 max-w-3xl">
-                <h2 class="text-3xl font-bold">Título do Post</h2>
-                <span class="mb-6 block">January 11, 2023 in blog</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto temporibus, nulla vero facilis vitae
-                    deserunt
-                    dolorem impedit placeat autem, laborum, similique error sapiente cumque non eligendi sequi enim?
-                    Ipsam,
-                    suscipit?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto temporibus, nulla vero facilis vitae
-                    deserunt
-                    dolorem impedit placeat autem, laborum, similique error sapiente cumque non eligendi sequi enim?
-                    Ipsam,
-                    suscipit?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto temporibus, nulla vero facilis vitae
-                    deserunt
-                    dolorem impedit placeat autem, laborum, similique error sapiente cumque non eligendi sequi enim?
-                    Ipsam,
-                    suscipit?</p>
-                <p class="mt-6"><a href="#" class="text-blue-700 hover:underline">Continuar leitura</a></p>
-            </div>
-            <div class="mb-6 border-b pb-6 max-w-3xl">
-                <h2 class="text-3xl font-bold">Título do Post</h2>
-                <span class="mb-6 block">January 11, 2023 in blog</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto temporibus, nulla vero facilis vitae
-                    deserunt
-                    dolorem impedit placeat autem, laborum, similique error sapiente cumque non eligendi sequi enim?
-                    Ipsam,
-                    suscipit?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto temporibus, nulla vero facilis vitae
-                    deserunt
-                    dolorem impedit placeat autem, laborum, similique error sapiente cumque non eligendi sequi enim?
-                    Ipsam,
-                    suscipit?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto temporibus, nulla vero facilis vitae
-                    deserunt
-                    dolorem impedit placeat autem, laborum, similique error sapiente cumque non eligendi sequi enim?
-                    Ipsam,
-                    suscipit?</p>
-                <p class="mt-6"><a href="#" class="text-blue-700 hover:underline">Continuar leitura</a></p>
-            </div>
-        </div>
+            </article>
+        </main>
     </div>
 </body>
 
